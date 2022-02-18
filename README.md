@@ -1,5 +1,10 @@
 # android_device_alps_oplus_mssi_64_cn
-An untested (and most likely very retarded) TWRP tree for OPPO A91.
-I would advise you to use another device tree.
-Or try it and don't cry to me that it didn't work.
-Or make it better.
+A TWRP device tree for Oppo A91.
+
+Not working:
+- Mounting /data, /system and other partitons
+
+Unknown:
+- Flashing and backuping partitions
+
+**Work in progress. Please report every issue you have with this device tree.**
