@@ -1,8 +1,6 @@
 # mount point       fstype    device                                                                flags
-/system_root             ext4     /dev/block/platform/bootdevice/by-name/system           flags=display="System";backup=1
-/system                  emmc     /dev/block/by-name/system				   flags=backup=1;flashimg=1
-/vendor                  ext4     /dev/block/platform/bootdevice/by-name/vendor	   flags=backup=0;display="Vendor";wipeingui
-/vendor_image	           emmc     /dev/block/by-name/vendor				   flags=backup=1;flashimg=1
+/system                  emmc     /dev/block/by-name/system				   flags=display="System";backup=1;flashimg=1
+/vendor	                 emmc     /dev/block/by-name/vendor				   flags=display="Vendor";backup=1;flashimg=1
 /data                    ext4     /dev/block/platform/bootdevice/by-name/userdata         flags=display="Data"
 /cache                   ext4     /dev/block/sdc40                    flags=display="Cache"
 /protect_f               ext4     /dev/block/platform/bootdevice/by-name/protect1         flags=display="Protect_f"
